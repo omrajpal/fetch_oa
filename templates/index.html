@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Predictions</title>
+</head>
+<body>
+    <h1>Flask Predictions</h1>
+    <h2>Predicted vs Actual Data Plot</h2>
+    <img src="data:image/png;base64,{{ plot_url }}" alt="Predictions Plot">
+
+    <h3>Actual Data</h3>
+    <pre>{{ actual_data }}</pre>
+
+    <h3>Predicted Data</h3>
+    <pre>{{ predicted_data }}</pre>
+</body>
+</html>
